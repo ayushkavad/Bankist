@@ -25,7 +25,7 @@ const account1 = {
     '2022-03-01T23:36:17.929Z',
     '2022-03-05T10:51:36.790Z',
   ],
-  currency: 'EUR',
+  currency: 'USD',
   locale: 'pt-PT', // de-DE
 };
 
@@ -49,7 +49,20 @@ const account2 = {
   locale: 'en-US',
 };
 
-const accounts = [account1, account2];
+const account3 = {
+  owner: 'Jym Patel',
+  movements: [10000],
+  interestRate: 1.5,
+  pin: 2222,
+
+  movementsDates: [
+    '2020-07-26T12:01:20.894Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US',
+};
+
+const accounts = [account1, account2, account3];
 
 /////////////////////////////////////////////////
 // Elements
